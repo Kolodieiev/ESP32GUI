@@ -3,7 +3,6 @@
 #include "screen/resources/string.h"
 #include "lib/GUI/widget/layout/EmptyLayout.h"
 #include "lib/GUI/widget/navbar/NavBar.h"
-#include "lib/GUI/util/Util.h"
 
 HomeScreen::HomeScreen(TFT_eSPI &tft) : IScreen{tft}
 {
